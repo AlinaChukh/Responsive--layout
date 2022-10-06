@@ -444,11 +444,16 @@
 .navigation__item:last-child {
   margin-right: 0;
 }
+@media screen and (min-width: 1400px) {
+  .navigation__item.navigation__item_selected {
+    font-weight: 700;
+  }
+}
 .navigation__arrow {
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url(img/arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
   margin-left: 11px;
 }
 
@@ -459,6 +464,12 @@
   width: 48px;
   height: 48px;
   margin-right: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .logo__image {
+    width: 60px;
+    height: 60px;
+  }
 }
 .logo__name {
   font-size: 20px;
@@ -803,7 +814,7 @@
   text-align: center;
   margin: 0;
   margin-top: 18px;
-  min-width: 290px;
+  max-width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .audience__text {
