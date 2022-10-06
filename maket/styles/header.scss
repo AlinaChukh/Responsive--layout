@@ -39,10 +39,6 @@
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     display: inline-block;
   }
-
-  &.logo__description {
-    display: none;
-  }
 }
 
 .navigation {
@@ -101,7 +97,9 @@
     justify-content: center;
   }
   &__description {
+    display: none;
     @include for-large-up {
+      display: block;
       font-size: 18px;
       line-height: 25px;
       color: #2b2920;
