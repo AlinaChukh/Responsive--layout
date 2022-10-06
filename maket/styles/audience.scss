@@ -44,6 +44,7 @@
     text-align: center;
     margin: 0;
     margin-top: 18px;
+    min-width: 290px;
     @include for-large-up {
       margin-top: 30px;
       max-width: 555px;
@@ -67,6 +68,10 @@
     }
   }
 
+  .headline__learn-more-btn.audience__button-btn {
+    color: black;
+  }
+
   &__image {
     margin: 0;
     margin-top: 40px;
@@ -81,6 +86,8 @@
 
   &__image-card {
     background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     min-width: 290px;
     min-height: 300px;
     border-radius: 8px;
@@ -97,6 +104,7 @@
     @include for-large-up {
       margin-bottom: 0;
       margin-right: 30px;
+      min-width: 262px;
       &:last-child {
         margin-right: 0;
       }
