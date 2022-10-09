@@ -330,7 +330,7 @@
   }
 }
 .tearms__item {
-  text-decoration: none;
+  text-decoration-line: none;
   color: rgba(43, 41, 45, 0.6);
   margin-right: 22px;
 }
@@ -791,7 +791,7 @@
   }
 }
 .audience__subtitle {
-  margin: 0;
+  margin: 50px 15px 0 15px;
   margin-top: 50px;
   font-weight: 700;
   font-size: 22px;
@@ -799,6 +799,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__subtitle {
+    margin: 0;
     margin-top: 110px;
   }
 }
@@ -807,8 +808,7 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  margin: 0;
-  margin-top: 17px;
+  margin: 17px 15px 0 15px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
@@ -816,6 +816,7 @@
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
+    margin: 0;
     margin-top: 24px;
     max-width: 555px;
   }
@@ -824,12 +825,12 @@
   font-size: 24px;
   line-height: 34px;
   text-align: center;
-  margin: 0;
-  margin-top: 18px;
+  margin: 18px 15px 0 15px;
   max-width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .audience__text {
+    margin: 0;
     margin-top: 30px;
     max-width: 555px;
   }
