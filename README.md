@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://github.com/AlinaChukh/Responsive--layout/tree/master/maket)
+### [Site link](https://alinachukh.github.io/Responsive--layout/)
 
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
